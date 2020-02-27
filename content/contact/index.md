@@ -1,5 +1,5 @@
 ---
-title: 'Get In Touch'
+title: 'Lerne mich kennen'
 ---
 
-Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!
+Ich freue ich mich stets auf tolle Gespräche via <a href="sascha.majewsky@pm.me" target="_blank">sascha.majewsky@pm.me</a>, sei es bezüglich Projektangeboten oder um mir einfach mal hallo zu sagen.

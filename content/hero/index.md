@@ -1,8 +1,8 @@
 ---
-title: 'Hi, my name is'
-name: 'Brittany Chiang'
-subtitle: 'I build things for the web.'
-contactText: 'Get In Touch'
+title: 'Moin! Mein Name ist'
+name: 'Sascha Majewsky'
+subtitle: 'Web Development ist meine Passion.'
+contactText: 'Lerne mich kennen'
 ---
 
-I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
+Ich bin ein Softwareentwickler aus Hamburg, Deutschland mit lösungsorientierten Fokus auf hochwertige Websites und Webanwendungen.
