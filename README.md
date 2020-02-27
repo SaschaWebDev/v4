@@ -2,24 +2,16 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  brittanychiang.com - v4
+  saschamajewsky.de
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+  The portfolio website of Sascha Majewsky built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>. The main effort of this website was done by Brittan Chiang and only slightly adjusted by myself. Make sure to check out her amazing work! <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a>
 </p>
 <p align="center">
-  Previous iterations:
-  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
-  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
-  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
-</p>
-<p align="center">
-  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/1963b488-7b78-48c9-9e2d-6fb5e47ab3af/deploy-status" alt="Netlify Status" />
-  </a>
+<!--*/ TODO: netlify deployment status badge here /* -->
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/master/src/images/demo.png)
+![demo](todo)
 
 ## 🛠 Installation & Set Up
 
@@ -35,13 +27,31 @@
    nvm install
    ```
 
-3. Install dependencies
+3. Optional for Mac & zsh users
+
+Install nvm with this install script.
+(If installed incorrectly before an uninstall is needed)
+
+```sh
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+```
+
+Create an alias for the command nvm when used zsh for ~/.zshrc
+
+Open ~/.zshrc with the editor of your choice and append the following
+
+```
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
+4. Install dependencies
 
    ```sh
    yarn
    ```
 
-4. Start the development server
+5. Start the development server
 
    ```sh
    npm start
