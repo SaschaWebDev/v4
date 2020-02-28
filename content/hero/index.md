@@ -1,7 +1,7 @@
 ---
-title: 'Moin! Mein Name ist'
+title: 'Moin! Ich heiße'
 name: 'Sascha Majewsky'
-subtitle: 'Web Development ist meine Passion.'
+subtitle: 'und ich 😍 Web Development'
 contactText: 'Lerne mich kennen'
 ---
 
