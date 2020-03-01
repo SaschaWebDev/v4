@@ -1,8 +1,8 @@
 ---
-title: 'Moin! Ich heiße'
-name: 'Sascha Majewsky'
-subtitle: 'und ich 😍 Web Development'
+title: 'Moin, mein Name ist'
+name: 'Sascha Majewsky.'
+subtitle: 'Ich entwickle Weblösungen.'
 contactText: 'Lerne mich kennen'
 ---
 
-Softwareentwickler aus Hamburg mit lösungsorientierten Fokus auf hochwertige Webanwendungen und Websites.
+Softwareentwickler aus Hamburg mit lösungsorientierten Fokus für hochwertige Webanwendungen und Websites.

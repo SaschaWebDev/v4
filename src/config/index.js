@@ -1,56 +1,56 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Sascha Majewsky | Softwareentwickler',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in developing (and occasionally designing) exceptional, high-quality websites and applications.',
+    'Ich bin Sascha Majewsky und arbeite als passionierter Softwareentwickler aus Hamburg für Projekte im Web. Dabei entwickle ich hochwertige Webanwendungen und Websites mit einem lösungsorientierten Fokus, sowie hohem Anspruch an Qualität von UI/UX und Code.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
-  siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+    'Sascha Majewsky, Sascha, Majewsky, saschamajewsky, softwareentwickler, front-end engineer, web developer, javascript, northeastern, webentwickler',
+  siteUrl: 'https://saschamajewsky.de',
+  siteLanguage: 'de_DE',
+  googleAnalyticsID: 'xxxxxx',
+  googleVerification: 'xxxx',
+  name: 'Sascha Majewsky',
+  location: 'Hamburg, Deutschland',
+  email: 'sascha.majewsky@pm.me',
+  github: 'https://github.com/SaschaWebDev',
+  twitterHandle: 'xxx',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/SaschaWebDev',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/saschamajewsky/',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'xxxx',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'xxxxx',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'xxxxx',
     },
   ],
 
   navLinks: [
     {
-      name: 'About',
+      name: 'Über mich',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Erfahrung',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projekte',
       url: '/#projects',
     },
     {
-      name: 'Contact',
+      name: 'Kontakt',
       url: '/#contact',
     },
   ],
