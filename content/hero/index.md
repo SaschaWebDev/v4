@@ -5,4 +5,4 @@ subtitle: 'und ich 😍 Web Development'
 contactText: 'Lerne mich kennen'
 ---
 
-Ich bin ein Softwareentwickler aus Hamburg, Deutschland mit lösungsorientierten Fokus auf hochwertige Websites und Webanwendungen.
+Softwareentwickler aus Hamburg mit lösungsorientierten Fokus auf hochwertige Webanwendungen und Websites.

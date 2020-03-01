@@ -1,18 +1,16 @@
 ---
-title: 'About Me'
+title: 'Über mich'
 avatar: './me.jpg'
 skills:
   - JavaScript (ES6+)
   - HTML & (S)CSS
   - React
-  - Vue
   - Node.js
   - Express
-  - NativeScript
 ---
 
-Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+Ich bin Sascha Majewsky und arbeite als Softwareentwickler aus Hamburg mit Passion an Projekten für das Web. Dabei entwickle ich hochwertige Webanwendungen und Websites mit einem lösungsorientierten Fokus, sowie hohem Anspruch an Qualität von UI/UX und Code.
 
-Shortly after graduating from [Northeastern University](https://www.ccis.northeastern.edu/), I joined the engineering team at [Upstatement](https://www.upstatement.com/) where I work on a wide variety of interesting and meaningful projects on a daily basis.
+Derzeit studiere ich Wirtschaftsinformatik an der [Leuphana Universität Lüneburg](https://www.leuphana.de/) und arbeite als Analyst bei dem Finanzdienstleister [coinIX](https://www.coin-ix.com/) mit Fokus auf Micro-VC und digitalen Assets.
 
-Here are a few technologies I've been working with recently:
+Dies sind einige Technologien, mit welchen ich kürzlich gearbeitet habe:
