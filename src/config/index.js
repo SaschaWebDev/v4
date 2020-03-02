@@ -12,7 +12,7 @@ module.exports = {
   location: 'Hamburg, Deutschland',
   email: 'sascha.majewsky@pm.me',
   github: 'https://github.com/SaschaWebDev',
-  twitterHandle: 'xxx',
+  twitterHandle: '@SaschaWebDev',
   socialMedia: [
     {
       name: 'GitHub',
@@ -23,16 +23,16 @@ module.exports = {
       url: 'https://www.linkedin.com/in/saschamajewsky/',
     },
     {
-      name: 'Codepen',
-      url: 'xxxx',
+      name: 'Xing',
+      url: 'https://www.xing.com/profile/Sascha_Majewsky5/',
     },
     {
-      name: 'Instagram',
-      url: 'xxxxx',
+      name: 'Codepen',
+      url: 'https://codepen.io/dashboard/',
     },
     {
       name: 'Twitter',
-      url: 'xxxxx',
+      url: 'https://twitter.com/SaschaWebDev',
     },
   ],
 

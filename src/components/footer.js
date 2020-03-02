@@ -4,7 +4,7 @@ import {
   IconGitHub,
   IconLinkedin,
   IconCodepen,
-  IconInstagram,
+  IconXing,
   IconTwitter,
   IconStar,
   IconFork,
@@ -18,7 +18,7 @@ const StyledContainer = styled.footer`
   ${mixins.flexCenter};
   flex-direction: column;
   padding: 15px;
-  background-color: ${colors.darkNavy};
+  background-color: ${colors.darkerBackground};
   color: ${colors.slate};
   text-align: center;
   height: auto;
@@ -110,8 +110,8 @@ const Footer = () => {
                     <IconLinkedin />
                   ) : name === 'Codepen' ? (
                     <IconCodepen />
-                  ) : name === 'Instagram' ? (
-                    <IconInstagram />
+                  ) : name === 'Xing' ? (
+                    <IconXing />
                   ) : name === 'Twitter' ? (
                     <IconTwitter />
                   ) : (
