@@ -9,7 +9,7 @@ skills:
   - Express
 ---
 
-Ich bin Sascha Majewsky und arbeite als passionierter Softwareentwickler aus Hamburg für Projekte im Web. Dabei entwickle ich hochwertige Webanwendungen und Websites mit einem lösungsorientierten Fokus, sowie hohem Anspruch an Qualität von UI/UX und Code.
+Ich bin Sascha Majewsky und arbeite als passionierter Softwareentwickler aus Hamburg für Projekte im Web. Dabei entwickle ich hochwertige Webanwendungen und Websites mit einem lösungsorientierten Fokus, sowie hohem Anspruch an die Qualität des Code und UI/UX.
 
 Derzeit studiere ich Wirtschaftsinformatik an der [Leuphana Universität Lüneburg](https://www.leuphana.de/) und arbeite als Analyst bei dem Finanzdienstleister [coinIX](https://www.coin-ix.com/) mit Fokus auf Micro VC und digitalen Assets.
 

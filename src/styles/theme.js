@@ -9,7 +9,6 @@ const theme = {
     mediumGrey: '#2d3952',
     grey: '#4c5772',
     lightGrey: '#606a86',
-    slate: '#8892b0',
     lightSlate: '#a8b2d1',
     lightestSlate: '#ccd6f6',
     offWhite: '#dce7ff',
@@ -25,8 +24,9 @@ const theme = {
     transNavy: 'rgba(10, 25, 47, 0.7)',
     shadowNavy: 'rgba(2, 12, 27, 0.7)',
     darkerBackground: '#0a0f16',
+    lighterdarkerBackground: '#161a20',
     lightSlateAccent: '#b6b0a5',
-    darkerMainAccent: '#0066cc',
+    slate: '#8892b0',
   },
 
   fonts: {

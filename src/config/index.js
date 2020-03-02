@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Sascha Majewsky | Softwareentwickler',
   siteDescription:
-    'Ich bin Sascha Majewsky und arbeite als passionierter Softwareentwickler aus Hamburg für Projekte im Web. Dabei entwickle ich hochwertige Webanwendungen und Websites mit einem lösungsorientierten Fokus, sowie hohem Anspruch an Qualität von UI/UX und Code.',
+    'Ich bin Sascha Majewsky und arbeite als passionierter Softwareentwickler aus Hamburg für Projekte im Web. Dabei entwickle ich hochwertige Webanwendungen und Websites mit einem lösungsorientierten Fokus, sowie hohem Anspruch an die Qualität des UI/UX und Code.',
   siteKeywords:
     'Sascha Majewsky, Sascha, Majewsky, saschamajewsky, softwareentwickler, front-end engineer, web developer, javascript, northeastern, webentwickler',
   siteUrl: 'https://saschamajewsky.de',

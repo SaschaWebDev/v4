@@ -142,11 +142,12 @@ const StyledListItem = styled.li`
   margin: 0 10px;
   position: relative;
   font-size: ${fontSizes.smish};
+  color: ${colors.slate};
   counter-increment: item 1;
   &:before {
     content: '0' counter(item) '.';
     text-align: right;
-    color: ${colors.green};
+    color: ${colors.white};
     font-size: ${fontSizes.xs};
   }
 `;
@@ -297,7 +298,7 @@ class Nav extends Component {
                       href="/resume.pdf"
                       target="_blank"
                       rel="nofollow noopener noreferrer">
-                      Lebenslauf
+                      Curriculum Vitae
                     </StyledResumeButton>
                   </div>
                 </CSSTransition>

@@ -16,7 +16,7 @@ const StyledContainer = styled(Section)`
 `;
 const StyledHeading = styled(Heading)`
   display: block;
-  color: ${colors.green};
+  color: ${colors.white};
   font-size: ${fontSizes.md};
   font-family: ${fonts.SFMono};
   font-weight: normal;
@@ -51,7 +51,7 @@ const Contact = ({ data }) => {
 
   return (
     <StyledContainer id="contact" ref={revealContainer}>
-      <StyledHeading>Und nun?</StyledHeading>
+      <StyledHeading>Und weiter?</StyledHeading>
 
       <StyledTitle>{title}</StyledTitle>
 

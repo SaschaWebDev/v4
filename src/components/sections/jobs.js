@@ -8,7 +8,7 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   position: relative;
-  max-width: 700px;
+  max-width: 1000px;
 `;
 const StyledTabs = styled.div`
   display: flex;
@@ -123,6 +123,7 @@ const StyledTabContent = styled.div`
   height: auto;
   padding-top: 12px;
   padding-left: 30px;
+  max-width: 580px;
   ${media.tablet`padding-left: 20px;`};
   ${media.thone`padding-left: 0;`};
 

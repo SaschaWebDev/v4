@@ -17,7 +17,7 @@ const StyledContainer = styled(Section)`
   }
 `;
 const StyledOverline = styled.h1`
-  color: ${colors.darkerMainAccent};
+  color: ${colors.slate};
   margin: 0 0 20px 3px;
   font-size: ${fontSizes.md};
   font-family: ${fonts.SFMono};
@@ -84,7 +84,7 @@ const Hero = ({ data }) => {
   );
   const five = () => (
     <div style={{ transitionDelay: '500ms' }}>
-      <StyledEmailLink href={`mailto:${email}`}>Lerne mich kennen</StyledEmailLink>
+      <StyledEmailLink href={`mailto:${email}`}>Mich kennenlernen</StyledEmailLink>
     </div>
   );
 
