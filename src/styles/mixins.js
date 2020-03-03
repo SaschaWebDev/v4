@@ -155,10 +155,12 @@ const mixins = {
     list-style: none;
     font-size: ${fontSizes.lg};
     color: ${colors.slate};
+    outline: none;
     li {
       position: relative;
       padding-left: 30px;
       margin-bottom: 10px;
+      outline: none;
       &:before {
         content: '▹';
         position: absolute;

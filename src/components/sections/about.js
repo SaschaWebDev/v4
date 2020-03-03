@@ -9,6 +9,7 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   position: relative;
+  min-height: 90vh;
 `;
 const StyledFlexContainer = styled.div`
   ${mixins.flexBetween};

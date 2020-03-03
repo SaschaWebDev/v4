@@ -9,6 +9,8 @@ const { colors, fontSizes, fonts } = theme;
 const StyledContainer = styled(Section)`
   position: relative;
   max-width: 1000px;
+  min-height: 90vh;
+  outline: none;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
@@ -21,6 +23,7 @@ const StyledTabs = styled.div`
   display: flex;
   align-items: flex-start;
   position: relative;
+  outline: none;
   ${media.thone`
     display: block;
   `};
@@ -33,6 +36,7 @@ const StyledTabList = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
+  outline: none;
 
   ${media.thone`
     display: flex;
@@ -79,7 +83,7 @@ const StyledTabButton = styled.button`
   white-space: nowrap;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
-  color: ${props => (props.isActive ? colors.green : colors.lightGrey)};
+  color: ${props => (props.isActive ? colors.lightSlateAccent : colors.lightGrey)};
   ${media.tablet`padding: 0 15px 2px;`};
   ${media.thone`
     ${mixins.flexCenter};
@@ -96,7 +100,7 @@ const StyledTabButton = styled.button`
 `;
 const StyledHighlight = styled.span`
   display: block;
-  background: ${colors.green};
+  background: ${colors.lightSlateAccent};
   width: 2px;
   height: ${theme.tabHeight}px;
   border-radius: ${theme.borderRadius};
@@ -109,6 +113,7 @@ const StyledHighlight = styled.span`
   transform: translateY(
     ${props => (props.activeTabId > 0 ? props.activeTabId * theme.tabHeight : 0)}px
   );
+  outline: none;
   ${media.thone`
     width: 100%;
     max-width: ${theme.tabWidth}px;
@@ -133,6 +138,7 @@ const StyledTabContent = styled.div`
   max-width: 580px;
   ${media.tablet`padding-left: 20px;`};
   ${media.thone`padding-left: 0;`};
+  outline: none;
 
   ul {
     ${mixins.fancyList};
@@ -148,7 +154,7 @@ const StyledJobTitle = styled.h4`
   margin-bottom: 5px;
 `;
 const StyledCompany = styled.span`
-  color: ${colors.green};
+  color: ${colors.slate};
 `;
 const StyledJobDetails = styled.h5`
   font-family: ${fonts.SFMono};
