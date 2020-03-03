@@ -177,14 +177,14 @@ const GlobalStyle = createGlobalStyle`
           content: '▹';
           position: absolute;
           left: 0;
-          color: ${colors.green};
+          color: ${colors.white};
         }
       }
     }
   }
 
   blockquote {
-    border-left-color: ${colors.green};
+    border-left-color: ${colors.white};
     border-left-style: solid;
     border-left-width: 1px;
     margin-left: 0px;

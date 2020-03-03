@@ -3,14 +3,15 @@ import theme from './theme';
 const { colors, fontSizes, fonts } = theme;
 
 const Button = styled.button`
-  color: ${colors.green};
+  color: ${colors.white};
   background-color: transparent;
-  border: 1px solid ${colors.green};
+  border: 1px solid ${colors.grey};
   border-radius: ${theme.borderRadius};
   font-size: ${fontSizes.smish};
   font-family: ${fonts.SFMono};
   line-height: 1;
   text-decoration: none;
+  min-width: 130px;
   cursor: pointer;
   transition: ${theme.transition};
   padding: 1.25rem 1.75rem;
@@ -18,7 +19,8 @@ const Button = styled.button`
   &:hover,
   &:focus,
   &:active {
-    background-color: ${colors.transGreen};
+    background-color: ${colors.lighterdarkerBackground};
+    color: ${colors.white};
     outline: none;
   }
   &:after {

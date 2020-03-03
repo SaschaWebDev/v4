@@ -17,7 +17,7 @@ const StyledLinkWrapper = styled.div`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${colors.slate};
+    background-color: ${colors.darkGrey};
   }
 `;
 const StyledEmailLink = styled.a`
@@ -27,6 +27,13 @@ const StyledEmailLink = styled.a`
   writing-mode: vertical-rl;
   margin: 20px auto;
   padding: 10px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 
   &:hover,
   &:focus {

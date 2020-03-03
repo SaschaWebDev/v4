@@ -73,7 +73,7 @@ const mixins = {
   smallButton: css`
     color: ${colors.white};
     background-color: transparent;
-    border: 1px solid ${colors.slate};
+    border: 1px solid ${colors.grey};
     border-radius: ${theme.borderRadius};
     padding: 0.75rem 1rem;
     font-size: ${fontSizes.smish};
@@ -82,6 +82,13 @@ const mixins = {
     text-decoration: none;
     cursor: pointer;
     transition: ${theme.transition};
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
     &:hover,
     &:focus,
     &:active {
@@ -97,7 +104,7 @@ const mixins = {
   bigButton: css`
     color: ${colors.white};
     background-color: transparent;
-    border: 1px solid ${colors.slate};
+    border: 1px solid ${colors.grey};
     border-radius: ${theme.borderRadius};
     padding: 1.25rem 1.75rem;
     font-size: ${fontSizes.sm};
@@ -106,6 +113,13 @@ const mixins = {
     text-decoration: none;
     cursor: pointer;
     transition: ${theme.transition};
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
     &:hover,
     &:focus,
     &:active {
@@ -140,6 +154,7 @@ const mixins = {
     margin: 0;
     list-style: none;
     font-size: ${fontSizes.lg};
+    color: ${colors.slate};
     li {
       position: relative;
       padding-left: 30px;
@@ -148,7 +163,7 @@ const mixins = {
         content: '▹';
         position: absolute;
         left: 0;
-        color: ${colors.green};
+        color: ${colors.lightSlateAccent};
       }
     }
   `,
