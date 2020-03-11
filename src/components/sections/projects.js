@@ -147,7 +147,7 @@ const Projects = ({ data }) => {
     <StyledContainer>
       <StyledTitle ref={revealTitle}>Andere nennenswerte Projekte</StyledTitle>
       <StyledArchiveLink to="/archive" ref={revealArchiveLink}>
-        view the archive
+        Zur Auflistung im Archiv
       </StyledArchiveLink>
 
       <StyledGrid>

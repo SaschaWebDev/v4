@@ -43,7 +43,7 @@ const Skill = styled.li`
     content: '▹';
     position: absolute;
     left: 0;
-    color: ${colors.lightSlateAccent};
+    color: ${colors.goldenslate};
     font-size: ${fontSizes.sm};
     line-height: 12px;
   }

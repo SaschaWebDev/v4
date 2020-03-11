@@ -26,6 +26,7 @@ const theme = {
     darkerBackground: '#0a0f16',
     lighterdarkerBackground: '#161a20',
     lightSlateAccent: '#b6b0a5',
+    goldenslate: '#8c8535',
     slate: '#8892b0',
   },
 

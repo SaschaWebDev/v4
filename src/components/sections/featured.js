@@ -27,7 +27,7 @@ const StyledContent = styled.div`
 const StyledLabel = styled.h4`
   font-size: ${fontSizes.smish};
   font-weight: normal;
-  color: ${colors.green};
+  color: ${colors.slate};
   font-family: ${fonts.SFMono};
   margin-top: 10px;
   padding-top: 0;
@@ -127,21 +127,29 @@ const StyledImgContainer = styled.a`
   grid-row: 1 / -1;
   position: relative;
   z-index: 1;
-  background-color: ${colors.green};
   border-radius: ${theme.radius + 1}px;
-  transition: ${theme.transition};
+  /* transition: ${theme.transition}; */
   ${media.tablet`height: 100%;`};
   ${media.thone`
     grid-column: 1 / -1;
     opacity: 0.25;
   `};
+  background: transparent;
+    &:before,
+    ${StyledFeaturedImg} {
+      background: transparent;
+      filter: grayscale(20%) contrast(90%);
+      mix-blend-mode: normal;
+    }
   &:hover,
   &:focus {
     background: transparent;
     &:before,
     ${StyledFeaturedImg} {
+      transition: 400ms ease;
       background: transparent;
-      filter: none;
+      filter: grayscale(0%) contrast(110%);
+      mix-blend-mode: normal;
     }
   }
   &:before {
@@ -154,9 +162,9 @@ const StyledImgContainer = styled.a`
     right: 0;
     bottom: 0;
     z-index: 3;
-    transition: ${theme.transition};
-    background-color: ${colors.navy};
-    mix-blend-mode: screen;
+    /* transition: ${theme.transition}; */
+   /* background-color: ${colors.pin};
+    mix-blend-mode: screen; */
   }
 `;
 const StyledProject = styled.div`
@@ -227,7 +235,7 @@ const Featured = ({ data }) => {
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <StyledContent>
-                  <StyledLabel>Featured Project</StyledLabel>
+                  <StyledLabel>Projekt</StyledLabel>
                   <StyledProjectName>
                     {external ? (
                       <a
