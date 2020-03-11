@@ -213,14 +213,14 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .overline {
-    color: ${colors.green};
+    color: ${colors.lightSlate};
     font-family: ${fonts.SFMono};
     font-size: ${fontSizes.md};
     font-weight: normal;
   }
 
   .subtitle {
-    color: ${colors.green};
+    color: ${colors.lightSlate};
     margin: 0 0 20px 0;
     font-size: ${fontSizes.md};
     font-family: ${fonts.SFMono};

@@ -98,6 +98,7 @@ const StyledProjectName = styled.h5`
 const StyledProjectDescription = styled.div`
   font-size: 17px;
   color: ${colors.lightSlate};
+  text-align: justify;
   a {
     ${mixins.inlineLink};
   }
