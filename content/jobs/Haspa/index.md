@@ -1,7 +1,7 @@
 ---
 date: '2013-09-01'
 title: 'Bankkaufmann'
-company: 'Hamburger Sparkasse'
+company: 'Haspa'
 location: 'Hamburg'
 range: 'Aug 2013 - Aug 2015'
 url: 'https://www.haspa.de'

@@ -138,7 +138,7 @@ const StyledImgContainer = styled.a`
     &:before,
     ${StyledFeaturedImg} {
       background: transparent;
-      filter: grayscale(20%) contrast(90%);
+      filter: grayscale(10%) contrast(95%);
       mix-blend-mode: normal;
     }
   &:hover,
