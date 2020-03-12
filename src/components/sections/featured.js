@@ -61,6 +61,7 @@ const StyledDescription = styled.div`
   `};
   p {
     margin: 0;
+    text-align: justify;
   }
   a {
     ${mixins.inlineLink};
