@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Eine Web Applikation zur sicheren und schnellen Erstellung für Passwörter mit hoher Entropie. Je nach Belieben kann die gewünschte Passwortlänge und Optionen zur Verwendung von Buchstaben, Nummern und Symbolen eingestellt werden.
+Eine Web-Applikation zur sicheren und schnellen Erstellung für Passwörter mit hoher Entropie. Je nach Belieben kann die gewünschte Passwortlänge und Optionen zur Verwendung von Buchstaben, Nummern und Symbolen eingestellt werden.

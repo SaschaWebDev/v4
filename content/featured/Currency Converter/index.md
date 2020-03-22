@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Ein Web Applikation als Währungsrechner für bitcoin, US-Dollar, Euro und satoshi. Durch Tastaturkürzel kann die gesamte Applikation auch über die Tastatur bedient werden.
+Ein Web-Applikation als Währungsrechner für bitcoin, US-Dollar, Euro und satoshi. Durch Tastaturkürzel kann die gesamte Applikation auch über die Tastatur bedient werden.

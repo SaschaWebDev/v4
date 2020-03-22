@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Eine Web Applikation zur schnellen Umrechnung von Prozentwerten, wie es oft im Berufsleben benötigt wird. Ergebnisse können komfortabel in die Zwischenablage kopiert oder in die deutsche Notation konvertiert werden. Bietet Toggles zum Runden und einen Dark Mode.
+Eine Web-Applikation zur schnellen Umrechnung von Prozentwerten, wie es oft im Berufsleben benötigt wird. Ergebnisse können komfortabel in die Zwischenablage kopiert oder in die deutsche Notation konvertiert werden. Bietet Toggles zum Runden und einen Dark Mode.

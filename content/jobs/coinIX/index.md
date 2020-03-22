@@ -11,4 +11,4 @@ url: 'https://coin-ix.com'
 - Management von Investmententscheidungen eines Portfolios in siebenstelliger Größenordnung
 - Überwachung der Verwahrung und Buchhaltung der digitalen Assets
 - Mitwirken beim erfolgreichen Aktienlisting des Unternehmens an der Börse Düsseldorf
-- Entwicklung von Software zur Verwendung im Unternehmen oder in der Unternehmenspräsentation
+- Entwicklung von Software zur Verwendung im Unternehmen und in der Unternehmenspräsentation
