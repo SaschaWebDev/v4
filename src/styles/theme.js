@@ -59,7 +59,7 @@ const theme = {
   tabWidth: 120,
   radius: 3,
 
-  gradient: `linear-gradient(0.4turn, #64d6ff, #64ffda)`,
+  gradient: `linear-gradient(0.4turn, pink, green)`,
 
   loaderDelay: `6`,
 

@@ -24,7 +24,7 @@ const StyledContainer = styled.div`
 const Sidebar = styled.aside`
   ${mixins.flexCenter};
   flex-direction: column;
-  background-color: ${colors.lightNavy};
+  background-color: ${colors.lighterdarkerBackground};
   padding: 50px;
   width: 50vw;
   height: 100%;
@@ -63,7 +63,7 @@ const NavListItem = styled.li`
   &:before {
     display: block;
     content: '0' counter(item) '.';
-    color: ${colors.green};
+    color: ${colors.lightSlateAccent};
     font-size: ${fontSizes.sm};
     margin-bottom: 5px;
   }

@@ -27,7 +27,7 @@ const SkipToContent = styled.a`
   &:active {
     outline: 0;
     color: ${colors.green};
-    background-color: ${colors.lightNavy};
+    background-color: ${colors.pink};
     border-radius: ${theme.borderRadius};
     padding: 18px 23px;
     font-size: ${fontSizes.sm};

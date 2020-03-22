@@ -9,7 +9,7 @@ const { colors } = theme;
 
 const StyledContainer = styled.div`
   ${mixins.flexCenter};
-  background-color: ${colors.darkNavy};
+  background-color: ${colors.darkerBackground};
   position: fixed;
   width: 100%;
   height: 100%;
@@ -43,35 +43,13 @@ const Loader = ({ finishLoading }) => {
       complete: () => finishLoading(),
     });
 
-    loader
-      .add({
-        targets: '#logo path',
-        delay: 500,
-        duration: 2000,
-        easing: 'easeInOutQuart',
-        strokeDashoffset: [anime.setDashoffset, 0],
-      })
-      .add({
-        targets: '#logo #B',
-        duration: 800,
-        easing: 'easeInOutQuart',
-        opacity: 1,
-      })
-      .add({
-        targets: '#logo',
-        delay: 700,
-        duration: 300,
-        easing: 'easeInOutQuart',
-        opacity: 0,
-        scale: 0.1,
-      })
-      .add({
-        targets: '.loader',
-        duration: 200,
-        easing: 'easeInOutQuart',
-        opacity: 0,
-        zIndex: -1,
-      });
+    loader.add({
+      targets: '#logo path',
+      delay: 800,
+      duration: 1200,
+      easing: 'easeInOutQuart',
+      strokeDashoffset: [anime.setDashoffset, 0],
+    });
   };
 
   const [isMounted, setIsMounted] = useState(false);
