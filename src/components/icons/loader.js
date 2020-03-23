@@ -8,7 +8,11 @@ const IconLoader = () => (
     alt="sascha logo"
     height="42"
     width="42"
-    style={{ transform: `scale(1.7)`, marginTop: `10px`, marginLeft: `2px` }}
+    style={{
+      transform: `scaleX(0.9)`,
+      marginTop: `10px`,
+      marginLeft: `2px`,
+    }}
   />
 );
 

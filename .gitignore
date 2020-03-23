@@ -5,7 +5,12 @@ yarn-error.log
 package-lock.json
 
 # Build directory
-/public
+/public/page-data
+/public/slides
+/public/static
+/public/index.html
+/public/manifest.webmanifest
+/public/icons
 .DS_Store
 
 .vscode/
